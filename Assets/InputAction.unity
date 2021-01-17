@@ -391,20 +391,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8214e1f80fdb244d97d656b0a10763a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _maxScale: 1
+  _minScale: 0.1
   _transform: {fileID: 581947672}
-  _action:
-    m_Name: Action
+  _ScaleXYZ:
+    m_Name: Scale XYZ
     m_Type: 0
     m_ExpectedControlType: 
-    m_Id: 46f430ea-f775-4ffa-b387-db410f309032
+    m_Id: 9683721f-e2d8-40e2-921b-dc00032ab9c4
     m_Processors: 
     m_Interactions: 
     m_SingletonActionBindings:
     - m_Name: 
-      m_Id: e63572c0-712a-4fa2-898f-d54d29c9c7d8
+      m_Id: 8fdb8fb7-6619-489c-a11f-0214d29e3fbf
       m_Path: <MidiDevice>/control001
       m_Interactions: 
       m_Processors: 
       m_Groups: 
-      m_Action: Action
+      m_Action: Scale XYZ
+      m_Flags: 0
+  _ScaleX:
+    m_Name: Scale X
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 8be52891-f223-4fc0-8e34-2c00c7a1a34a
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 72c07353-704f-40e3-b9ec-e6cbed246edd
+      m_Path: <MidiDevice>/control002
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Scale X
       m_Flags: 0
