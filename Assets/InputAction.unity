@@ -426,3 +426,19 @@ MonoBehaviour:
       m_Groups: 
       m_Action: Scale X
       m_Flags: 0
+  _ScaleY:
+    m_Name: Scale Y
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: f05ffd15-1694-4143-9f2f-ed11e7f1ad26
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: b928395e-12c1-43bf-9d23-39e7423dcb65
+      m_Path: <MidiDevice>/control003
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Scale Y
+      m_Flags: 0
